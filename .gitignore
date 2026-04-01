@@ -1,0 +1,38 @@
+# Arduino / ESP32 build artifacts
+build/
+dist/
+*.o
+*.obj
+*.d
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+*.map
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Arduino IDE / CLI / editor metadata
+.vscode/
+.idea/
+*.code-workspace
+sketch.yaml
+
+# Local configuration / secrets
+config.local.h
+secrets.h
+wifi.local.h
+.env
+.env.*
+
+# Logs / temp / OS clutter
+*.log
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
